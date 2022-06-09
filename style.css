@@ -1,19 +1,25 @@
+* {
+  font-family: 'Verdana', 'Calibri' sans-serif;
+  line-height: 1.5;
+}
+
 body {
-    background: #fc9709 url(Bilder/hintergrund.jpg) fixed;
-    margin: 0;
+  background: #fc9709 url(Bilder/hintergrund.jpg) fixed;
+  margin: 0;
 }
 
 div {
-    background: white;
-    width: 50%;
-    margin: 0px auto;
-    padding: 1.5% 1%;
+  background: white;
+  width: 50%;
+  margin: 0px auto;
+  padding: 1.5% 1%;
+  box-shadow: 2px 2px 5px gray;
 }
 
 h1 {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 ul {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
