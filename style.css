@@ -3,11 +3,12 @@ body {
   margin: 0;
 }
 
-div {
+.hauptbehaelter {
   background: white;
   width: 50%;
   margin: 0px auto;
   padding: 1.5% 1%;
+  box-shadow: 2px 2px 5px #666666;
 }
 
 h1 {
@@ -25,7 +26,7 @@ h2 {
   text-align: center;
   padding: 1%;
   box-shadow: 2px 2px 5px gray;
-  text-shadow: 2px 2px 5px gray;
+  text-shadow: 1px 1px 1px gray;
   border-radius: 20px/50%;
   margin-bottom: 35px;
 }
@@ -34,6 +35,7 @@ img {
   float: right;
   padding: 2%;
 }
+
 .padding-lor20 {
   padding-left: 20px;
   padding-right: 20px;
@@ -42,9 +44,22 @@ img {
 section {
   margin-bottom: 50px;
 }
+
 table,
 th,
 td {
   border: 2px solid #997711;
   border-collapse: collapse;
+}
+
+table {
+  width: 45%;
+  text-align: center;
+  background: linear-gradient(#ffe3a6, #ffb44b);
+  box-shadow: 2px 2px 5px #666666;
+}
+
+.tabellenbehaelter {
+  display: flex;
+  justify-content: space-around;
 }
