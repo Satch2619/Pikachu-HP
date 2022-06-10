@@ -18,8 +18,6 @@ h2 {
   margin-bottom: 35px;
 }
 
-
-
 .padding-lr20 {
   padding-left: 20px;
   padding-right: 20px;
@@ -56,7 +54,7 @@ ul {
   list-style-type: none;
 }
 
-img{
+img {
   margin: auto;
   display: block;
 }
@@ -86,10 +84,11 @@ img{
     background: #fc9709 url(Bilder/hintergrund.jpg) fixed;
     margin: 0;
   }
-  li{
+  li {
     background: #eeeeee url(bilder/pokeball.png);
     background-size: 3%;
     background-repeat: no-repeat;
     background-position: 1.5% center;
     padding-left: 6%;
+  }
 }
