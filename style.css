@@ -49,3 +49,9 @@ img {
 section {
   margin-bottom: 50px;
 }
+table,
+th,
+td {
+  border: 2px solid #997711;
+  border-collapse: collapse;
+}
