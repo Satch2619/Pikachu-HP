@@ -15,5 +15,27 @@ h1 {
 }
 
 ul {
+<<<<<<< Updated upstream
     margin-bottom: 0;
 }
+=======
+  margin-bottom: 0;
+}
+
+h1,
+h2 {
+  background: #fc9709;
+  color: white;
+  text-align: center;
+  padding: 1%;
+  box-shadow: 2px 2px 5px gray;
+  text-shadow: 2px 2px 5px gray;
+  border-radius: 20px/50%;
+  margin-bottom: 35px;
+}
+
+img {
+  float: right;
+  padding: 2%;
+}
+>>>>>>> Stashed changes
