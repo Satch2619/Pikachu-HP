@@ -36,7 +36,7 @@ img {
   padding: 2%;
 }
 
-.padding-lor20 {
+.padding-lr20 {
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -62,4 +62,20 @@ table {
 .tabellenbehaelter {
   display: flex;
   justify-content: space-around;
+}
+
+li {
+  background: #eeeeee url(bilder/pokeball.png);
+  background-size: 3%;
+  background-repeat: no-repeat;
+  background-position: 1.5% center;
+  box-shadow: 2px 2px 5px #666666;
+  margin-top: 15px;
+  padding: 2%;
+  padding-left: 6%;
+  font-size: large;
+}
+
+ul {
+  list-style-type: none;
 }
