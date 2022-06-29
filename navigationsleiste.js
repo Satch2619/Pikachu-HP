@@ -6,5 +6,5 @@ window.onload =() => {
 
 function navigationUmschalten() {
   const navigationsleiste = document.getElementById("hauptnavigation");
-  navigationsleiste.classList.toggle("navigation-geöffnet");
+  navigationsleiste.classList.toggle("navigation-geoeffnet");
 }
