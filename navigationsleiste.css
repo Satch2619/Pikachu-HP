@@ -68,7 +68,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 45vw;
+  width: 50vw;
 }
 
 .nav-punkt {
@@ -105,4 +105,47 @@ header {
 .fa-search {
   color: #999;
   margin-right: 10px;
+}
+
+.hamburger-icon {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  #hauptnavigation {
+    flex-direction: column;
+    height: 50px;
+  }
+  .nav-logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  #hauptnavigation div {
+    width: 100%;
+  }
+
+  .navigationsbereich {
+    display: none;
+  }
+  .nav-oben {
+    display: none;
+  }
+
+  .nav-unten {
+    display: none;
+  }
+  .hamburger-icon {
+    display: block;
+    position: absolute;
+    top: 3px;
+    right: 12px;
+    font-size: 30px;
+    color: white;
+    user-select: none;
+  }
 }
