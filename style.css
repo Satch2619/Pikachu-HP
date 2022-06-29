@@ -1,3 +1,7 @@
+* {
+  font-family: "Roboto", "Verdana", "Calibri", sans-serif;
+  line-height: 1.5;
+}
 h1 {
   margin-top: 0;
 }
@@ -55,8 +59,8 @@ ul {
 }
 
 img {
-  margin: auto;
   display: block;
+  margin: auto;
 }
 @media (min-width: 576px) {
   .tabellenbehaelter {
@@ -69,7 +73,7 @@ img {
   }
   img {
     float: right;
-    padding: 2%;
+    padding: 1%;
   }
 }
 @media (min-width: 1200px) {
